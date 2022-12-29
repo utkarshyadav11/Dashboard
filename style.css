@@ -1,0 +1,115 @@
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #787878;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #e8e7ec;
+  color: #229be1;
+  border-radius: 5px;
+}
+
+.table1 {
+  background-color: #D5EAFF;
+}
+
+body {
+  height: 100%;
+}
+
+.logo {
+  padding: 40px;
+  text-align: center;
+}
+
+.dashboard {
+  background-color: #dddce1;
+}
+.dashboard .card {
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 5px 5px 0px rgba(216, 203, 203, 0.5);
+  padding: 15px;
+  cursor: pointer;
+}
+.dashboard .card:hover {
+  transition: all 0.8s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+.dashboard .card .logo {
+  color: rgba(0, 0, 0, 0.5);
+}
+.dashboard .card .comment {
+  color: rgba(0, 0, 0, 0.5);
+}
+.dashboard .card .num {
+  position: relative;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px;
+}
+.dashboard .card .stats {
+  position: relative;
+  font-size: 12px;
+  margin: 10px;
+}
+.dashboard .card .red {
+  color: #FF4647;
+}
+.dashboard .card .green {
+  color: #71C015;
+}
+.dashboard .themetable {
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 5px 5px 0px rgba(216, 203, 203, 0.5);
+  padding: 15px;
+}
+.dashboard .themetable .table1 {
+  background-color: #FFFFFF;
+}
+.dashboard .themetable .table2 {
+  background-color: #D5EAFF;
+}
+.dashboard .themetable .table3 {
+  background-color: #FCE6C1;
+}
+.dashboard .themetable .table4 {
+  background-color: #FFCCCB;
+}
+.dashboard .themetable .table5 {
+  background-color: #D7EDBE;
+}
+.dashboard .themeform {
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 5px 5px 0px rgba(216, 203, 203, 0.5);
+  padding: 15px;
+}
+.dashboard .themeform .form-floating > .form-control {
+  padding: 10px 15px;
+  height: 36px;
+}
+.dashboard .cardtitle {
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 10px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=style.css.map */
